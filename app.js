@@ -135,7 +135,7 @@ promptUser()
   })
   .then(copyFileResponse => {
     console.log(copyFileResponse);
-    console.log('Page created! Check out index.html in this directory to see it!');
+    console.log('Page created! Check out index.html in the dist directory to see it!');
   })
   .catch(err => {
     console.log(err);
